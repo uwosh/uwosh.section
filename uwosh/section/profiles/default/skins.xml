@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<object name="portal_skins"
+        meta_type="Plone Skins Tool"
+        allow_any="False"
+        cookie_persistence="False"
+        request_varname="plone_skin">
+
+ <object name="uwoshsection_images"
+         meta_type="Filesystem Directory View"
+         directory="uwosh.section:skins/uwoshsection_images"/>
+ <object name="uwoshsection_styles"
+         meta_type="Filesystem Directory View"
+         directory="uwosh.section:skins/uwoshsection_styles"/>
+ <object name="uwoshsection_templates"
+         meta_type="Filesystem Directory View"
+         directory="uwosh.section:skins/uwoshsection_templates"/>
+ 
+ <skin-path name="Plone Default">
+  <layer insert-after="custom" 
+         name="uwoshsection_images"/>
+  <layer insert-after="custom" 
+         name="uwoshsection_styles"/>
+  <layer insert-after="custom" 
+         name="uwoshsection_templates"/>
+ </skin-path>
+
+</object>

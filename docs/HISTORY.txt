@@ -1,0 +1,9 @@
+Changelog for uwosh.section
+
+    (name of developer listed in brackets)
+
+uwosh.section - 0.1 Unreleased
+
+    - Initial package structure.
+      [zopeskel]
+

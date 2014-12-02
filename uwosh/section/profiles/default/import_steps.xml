@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+ <import-step 
+    id="uwoshsection-Update-RoleMappings" 
+    handler="uwosh.section.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for uwoshsection"
+    version="2008-10-12T21:03:47.921700">
+   <dependency step="uwoshsection-QI-dependencies"/>
+   updates the workflow role mappings for uwoshsection
+ </import-step>
+
+ <import-step 
+    id="uwoshsection-postInstall" 
+    handler="uwosh.section.setuphandlers.postInstall"
+    title="manual coded post-install for uwoshsection"
+    version="2008-10-12T21:03:47.921700">
+   <dependency step="uwoshsection-QI-dependencies"/>
+   manual coded post-install for uwoshsection
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS --> 
+
+</import-steps>
+ 
